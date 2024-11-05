@@ -87,13 +87,6 @@ The application uses Tailwind CSS for styling with a clean, modern interface. Th
 - Left side: PDF Viewer
 - Right side: Text Editor
 
-## Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](your-issues-url).
-
-## License
-
-This project is [MIT](LICENSE) licensed.
 
 ## Acknowledgments
 
