@@ -31,10 +31,10 @@ A modern web application that combines PDF viewing capabilities with a feature-r
 
 ```bash
 # Clone the repository
-git clone [your-repo-url]
+git clone https://github.com/arxisme/E-Pdf
 
 # Navigate to project directory
-cd [your-project-name]
+cd E-pdf
 
 # Install dependencies
 npm install
