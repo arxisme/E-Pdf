@@ -2,23 +2,23 @@
 
 A modern web application that combines PDF viewing capabilities with a feature-rich text editor. This application allows users to view PDFs and take notes simultaneously in a split-screen interface, perfect for research, study, or document analysis.
 
-## 🌟 Features
+## Features
 
 ### PDF Viewer
-- 📄 Upload and view PDF documents
-- 🔍 Zoom in/out functionality
-- 📱 Responsive page navigation
-- 📑 Page tracking and navigation controls
-- 🎯 Clean and intuitive user interface
+- Upload and view PDF documents
+- Zoom in/out functionality
+- Responsive page navigation
+- Page tracking and navigation controls
+- Clean and intuitive user interface
 
 ### Text Editor
-- ✍️ Rich text editing capabilities
-- 📝 Multiple formatting options
-- 💾 Export notes to Markdown
-- 🖨️ Print functionality
-- 🎨 Customizable text styling
+- Rich text editing capabilities
+- Multiple formatting options
+- Export notes to Markdown
+- Print functionality
+- Customizable text styling
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **React**: Frontend framework
 - **PDF.js**: Mozilla's PDF viewer library
@@ -27,7 +27,7 @@ A modern web application that combines PDF viewing capabilities with a feature-r
 - **Turndown**: HTML to Markdown converter
 - **Tailwind CSS**: Utility-first CSS framework
 
-## 📦 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-## 💻 Usage
+## Usage
 
 1. **PDF Viewer:**
    - Click "Upload PDF" to load your document
@@ -57,7 +57,7 @@ npm run dev
    - Print or save your notes as PDF
    - Supports various text formatting options
 
-## 🔧 Dependencies
+## Dependencies
 
 ```json
 {
@@ -67,7 +67,7 @@ npm run dev
 }
 ```
 
-## 📝 Key Components
+## Key Components
 
 ### PDFViewer
 - Handles PDF file uploads
@@ -81,21 +81,21 @@ npm run dev
 - Print functionality
 - Built using React-Quill
 
-## 🎨 Styling
+## Styling
 
 The application uses Tailwind CSS for styling with a clean, modern interface. The layout is split into two equal sections:
 - Left side: PDF Viewer
 - Right side: Text Editor
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check [issues page](your-issues-url).
 
-## 📄 License
+## License
 
 This project is [MIT](LICENSE) licensed.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [PDF.js](https://mozilla.github.io/pdf.js/) by Mozilla
 - [React-Quill](https://github.com/zenoamaro/react-quill)
