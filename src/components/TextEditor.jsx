@@ -4,7 +4,7 @@ import 'react-quill/dist/quill.snow.css';
 import TurndownService from 'turndown'; 
 
 const TextEditor = () => {
-  // State to hold the content of the editor
+  // State to hold the content of the 5editor
   const [html, setHtml] = useState('Write your content here...');
   const turndownService = new TurndownService(); // Instance of Turndown for converting HTML to Markdown
 

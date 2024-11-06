@@ -1,12 +1,13 @@
 import './App.css'
-import  PDFViewer  from './components/PDFViewer'
+import PdfEditor from './components/PdfEditor';
+
 import TextEditor from './components/TextEditor'
 function App() {
   return (
     <div className="flex w-full max-h-screen ">
 
       <div className="w-1/2">
-        <PDFViewer />
+        <PdfEditor/>
       </div>
       <div className="w-1/2">
         <TextEditor />
