@@ -10,6 +10,7 @@ A modern web application that combines PDF viewing capabilities with a feature-r
 - Responsive page navigation
 - Page tracking and navigation controls
 - Clean and intuitive user interface
+- **Update**: Now added features to Highlight, draw upon the pdf and save it
 
 ### Text Editor
 - Rich text editing capabilities
@@ -21,7 +22,8 @@ A modern web application that combines PDF viewing capabilities with a feature-r
 ## Technologies Used
 
 - **React**: Frontend framework
-- **PDF.js**: Mozilla's PDF viewer library
+- **PDF.js**: Mozilla's PDF viewer library( initially used for the viewer)
+- **Pdflib** : Used for highlighing and manipulating pdf
 - **React-PDF**: React wrapper for PDF.js
 - **React-Quill**: Rich text editor component
 - **Turndown**: HTML to Markdown converter
@@ -74,6 +76,14 @@ npm run dev
 - Manages page navigation
 - Controls zoom functionality
 - Built using react-pdf/pdfjs
+- **Not in use in the current version**
+  
+### PDFEditor
+- Handles PDF file uploads
+- Manages page navigation
+- Controls zoom functionality
+- can be used to manipulate as well as highlight the pdf
+- Built using pdflib
 
 ### TextEditor
 - Rich text editing interface
@@ -93,3 +103,4 @@ The application uses Tailwind CSS for styling with a clean, modern interface. Th
 - [PDF.js](https://mozilla.github.io/pdf.js/) by Mozilla
 - [React-Quill](https://github.com/zenoamaro/react-quill)
 - [Turndown](https://github.com/mixmark-io/turndown)
+- [pdflib](somelink.com)
